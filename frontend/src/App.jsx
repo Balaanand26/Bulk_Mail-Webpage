@@ -32,7 +32,7 @@ const App = () => {
   function send() {
     setStatus(true);
     axios
-      .post("http://localhost:5000/sendmail", {
+      .post("https://bulk-mail-backend-k5oz.onrender.com/sendmail", {
         msg: msg,
         emailList: emailList,
       })
