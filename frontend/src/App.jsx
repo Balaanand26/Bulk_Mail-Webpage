@@ -47,7 +47,7 @@ const App = () => {
   }
 
   return (
-    <div className="text-center p-4 bg-gray-900  text-white">
+    <div className="text-center p-4 bg-gray-900  text-white h-dvh">
       <div className="text-3xl font-bold mb-16">
         <h1>BulKMail</h1>
       </div>
